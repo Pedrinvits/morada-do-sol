@@ -5,7 +5,7 @@ const QuemSomos = () => {
             <p className="text-sm sm:text-xl text-orange-400 font-bold text-justify">
             Bem-vindo à experiência única e saborosa da nossa empresa <span className="text-green-700">Mel Silvestre Morada do Sol</span> !<br/>onde cada gota de mel é um testemunho da qualidade que cultivamos em nossa própria propriedade, em nossa empresa, nosso mel é mais do que um produto; é uma celebração da natureza em sua forma mais pura. 
            </p>
-           <h1 className="text-xl sm:text-3xl text-orange-500 font-bold mb-4"> O que nos Torna Únicos</h1>
+           <h1 className="text-xl sm:text-3xl text-orange-500 font-bold mb-4 mt-4"> O que nos Torna Únicos</h1>
            <p className="text-sm sm:text-xl text-orange-400 font-bold text-">
            <span className="text-green-700">Produção Local e Sustentável</span> Nosso mel é colhido diretamente em nossa propriedade, onde garantimos a preservação do meio ambiente e a extração de um mel de qualidade.<br/>
 
