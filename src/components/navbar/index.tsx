@@ -36,7 +36,7 @@ const Navbar = () => {
 
                 <div className="hidden md:flex lg:flex items-center gap-4 text-sm relative cursor-pointer" >
                     {NAV_ITEMS.map(item => (
-                       <Navitem label={item.label} href={item.href}/>
+                       <Navitem label={item.label} href={item.href} key={item.label}/>
                     ))}
                 </div>
 
@@ -50,7 +50,7 @@ const Navbar = () => {
                             <SheetDescription className="text-xl">
                                 <div className="flex flex-col items-start mt-2 gap-4 text-sm relative cursor-pointer ">
                                     {NAV_ITEMS.map(item => (
-                                        <Navitem label={item.label} href={item.href}/>
+                                        <Navitem label={item.label} href={item.href} key={item.label}/>
                                     ))}
                                 </div>
                             </SheetDescription>
