@@ -7,13 +7,13 @@ const Product = () => {
         <section className="container gap-4 flex flex-col">
 
             <div className="w-full flex flex-col gap-4 md:flex-row items-center justify-center">
-                <div className="imagem w-full flex items-center justify-center">
+                <div className="imagem w-full sm:w-1/2 flex items-center justify-center ">
                     <Image width={0} height={0} className="w-1/2 h-[40%] self-center" alt="mel silvestre" src={MelSilvreImagem} />
                 </div>
-                <div className="px-5 flex flex-col gap-6 py-6 w-full">
+                <div className="px-5 flex flex-col gap-6 py-6 w-full sm:w-[40%] rounded-2xl border-2 border-gray-100 bg-white shadow-2xl">
                     <div className="infos flex flex-col">
                         <h1 className="text-orange-500 text-xl font-bold">Mel Silvestre 500g</h1>
-                        <p className="text-sm text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis numquam minus atque minima quas optio officia suscipit consequuntur quisquam sunt. Perferendis quo vel iure ratione aliquid, itaque ipsa nulla perspiciatis.</p>
+                        <p className="text-sm text-gray-600">Mel silvestre sem adição de açúcar e sem melaço</p>
                     </div>
                     <div className="flex gap-2">
                         <p className="text-xs font-bold"><s>R$ 23,00</s></p>
@@ -23,9 +23,9 @@ const Product = () => {
                 </div>
             </div>
 
-            <div className="flex flex-col">
+            <div className="flex flex-col p-4 mt-4">
                 <h1 className="text-orange-500 text-xl font-bold">Descrição</h1>
-                <p className="text-sm text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi adipisci doloremque quam autem cumque in numquam temporibus placeat. Maiores dolor assumenda voluptates obcaecati, dignissimos aspernatur porro totam est consequatur minima.</p>
+                <p className="text-sm text-gray-600">Produção local e sustentável nosso mel é colhido diretamente em nossa propriedade, onde garantimos a preservação do meio ambiente e a extração de um mel de qualidade, autêntico néctar das flores silvestres, proporcionando uma experiência de sabor incomparável</p>
             </div>
 
             {/* Chamar um componente de produtos */}
