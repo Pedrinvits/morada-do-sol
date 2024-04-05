@@ -44,9 +44,9 @@ const Navbar = () => {
                     <SheetTrigger className=" md:hidden">
                         <RxHamburgerMenu className="block h-6 w-6" aria-hidden="true" />
                     </SheetTrigger>
-                    <SheetContent className="bg-[#ffde59] border-none">
+                    <SheetContent className="border-none">
                         <SheetHeader>
-                            <SheetTitle className="text-xl text-orange-500 font-bold">Morada do sol</SheetTitle>
+                            <SheetTitle className="text-xl text-orange-500 font-bold self-center">Morada do sol</SheetTitle>
                             <SheetDescription className="text-xl">
                                 <div className="flex flex-col items-start mt-2 gap-4 text-sm relative cursor-pointer ">
                                     {NAV_ITEMS.map(item => (
