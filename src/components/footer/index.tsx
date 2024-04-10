@@ -8,8 +8,8 @@ const Footer = () => {
                 <div className="flex flex-col gap-4">
                     <h3 className="text-white text-xl">Entre em contato conosco</h3>
                     <div className="flex gap-4 items-center text-white text-xs"><FiPhone size={20} /><h3>(14) 9 9618-1450</h3></div>
-                    <div className="flex gap-4 items-center text-white text-xs"><MdOutlineMailOutline size={20} /><h3></h3></div>
-                    <div className="flex gap-4 items-center text-white text-xs"><FaInstagram size={20} /><h3>@</h3></div>
+                    <div className="flex gap-4 items-center text-white text-xs"><MdOutlineMailOutline size={20} /><h3>tiago.yamagutiportela00@gmail.com</h3></div>
+                    <div className="flex gap-4 items-center text-white text-xs"><FaInstagram size={20} /><h3>@mel.silvestre_morada_do_sol</h3></div>
                 </div>
             </section>
             <span className="flex items-center gap-1.5 text-xs sm:text-sm text-white mt-4">
