@@ -25,7 +25,7 @@ const Categories = () => {
                     </div>
                     </div>
                 </Link>
-                <Link href={'/products/favo-de-mel'}>
+                <Link href={'/products/favo-de-mel'} className="w-full">
                     <div className="w-full sm:w-[300px] sm:h-[450px] p-4 rounded-2xl border  bg-[#F28705]">
                     <div className="flex flex-col gap-4 h-full justify-between">
                         <h2 className="text-xl text-[#F2E205] p-2 font-bold">Favo de Mel</h2>
